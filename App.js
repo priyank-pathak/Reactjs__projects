@@ -1,16 +1,12 @@
-import React from "react";
-import "./App.css";
-import Sidebar from "./Sidebar";
-import Chat from "./Chat";
-import "./Chat.css"
+//import logo from './logo.svg';
+import './App.css';
+import Weatherapp from './Components/Weather';
+
 function App() {
   return (
-    //BEM naming convection
     <div className="App">
-      <div className="app_body">
-        <Sidebar />
-        <Chat />
-      </div>
+    <Weatherapp/>
+
     </div>
   );
 }
