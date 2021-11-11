@@ -1,21 +1,17 @@
 import React from "react";
 import "./App.css";
-import Sidebar from './Sidebar';
-import Feed from './Feed';
-
-import Widgets from "./Widgets";
-
+import Sidebar from "./Sidebar";
+import Chat from "./Chat";
+import "./Chat.css"
 function App() {
   return (
-    //BEM
-    <div className="app">
-    <Sidebar/>
-    
-     <Feed/>
-
-     <Widgets/>
-
-     </div>
+    //BEM naming convection
+    <div className="App">
+      <div className="app_body">
+        <Sidebar />
+        <Chat />
+      </div>
+    </div>
   );
 }
 
